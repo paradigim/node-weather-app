@@ -21,14 +21,6 @@ hbs.registerPartials(partialPath)
 app.use(express.static(pathDir))
 
 
-// app.get('/help', (req, res) => {
-//     res.send([{
-//         name: 'Pritam'
-//     }, {
-//         name: 'Sarah'
-//     }])
-// })
-
 
 
 app.get('', (req, res) => {
